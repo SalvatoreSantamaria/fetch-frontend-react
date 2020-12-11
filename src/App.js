@@ -21,7 +21,7 @@ export default function App() {
         return (d.name !== null && d.name !== '')
       })
       filteredData.sort(function(a,b) { 
-        if ( a.listId == b.listId ) {
+        if ( a.listId === b.listId ) {
           return (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0;
         } else {
           return (a.listId < b.listId) ? -1 : 1
