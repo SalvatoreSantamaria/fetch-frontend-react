@@ -39,7 +39,8 @@ export default function App() {
     <Container fluid="md">
       <Row>
         <Col>
-          <h2>Fetch Rewards Coding Exercise - Front End By <a href="http://www.salvatoresantamaria.com" target="blank">Salvatore Santamaria</a></h2>
+          <h2>React Data Displayer and Searcher by <a href="http://www.salvatoresantamaria.com" target="blank">Salvatore Santamaria</a></h2>
+          <p>Sorts and displays only complete json <a href="https://fetch-hiring.s3.amazonaws.com/hiring.json">data</a> by List ID, and then by Item ID. Includes a Search By ID feature.</p>
         </Col>
       </Row>
       <Row>
